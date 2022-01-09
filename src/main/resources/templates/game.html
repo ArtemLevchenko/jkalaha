@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>JKalaha Game</title>
+    <link href="../static/css/app.css" th:href="@{css/app.css}" rel="stylesheet"/>
+    <!-- jQuery -->
+    <script src="webjars/jquery/3.2.1/jquery.min.js"></script>
+    <script th:src="@{js/app.js}"></script>
+</head>
+
+<body>
+<input type="hidden" id="user" th:value="${username}"/>
+
+<h1>JKalaha Game</h1>
+<br/>
+
+
+<div class="board">
+
+    <div class="player-two store" id="13">0</div>
+
+    <div class="rows">
+        <div class="row player-two">
+            <div class="pit" id="12">0</div>
+            <div class="pit" id="11">0</div>
+            <div class="pit" id="10">0</div>
+            <div class="pit" id="9">0</div>
+            <div class="pit" id="8">0</div>
+            <div class="pit" id="7">0</div>
+        </div>
+
+        <div class="row player-one">
+            <div class="pit" id="0">0</div>
+            <div class="pit" id="1">0</div>
+            <div class="pit" id="2">0</div>
+            <div class="pit" id="3">0</div>
+            <div class="pit" id="4">0</div>
+            <div class="pit" id="5">0</div>
+        </div>
+    </div>
+
+    <div class="player-one store" id="6">0</div>
+</div>
+
+<div class="buttonBoard">
+    <button type="button" id="startGame">Start</button>
+    <button type="button" id="restartGame">Restart</button>
+    <button type="button" id="showHallOfFame">Show Results</button>
+</div>
+<div>
+    <br/>
+    <table style="border: 1px solid black;">
+        <tr>
+            <th>LOGIN:</th>
+            <th>TURN:</th>
+            <th>WINNER:</th>
+        </tr>
+        <tr>
+            <td><p th:text="${username}"></p></td>
+            <td><p id="takeTurnPlayer" class="takeTurnPlayer">marcoS</p></td>
+            <td><p id="winner" class="winner">-</p></td>
+        </tr>
+    </table>
+</div>
+
+<div id="dialogHallOfFameId" title="Hall of Fame" hidden="true">
+    <table id="hallOfFameTableId">
+        <tr>
+            <th>Winner</th>
+            <th>Date</th>
+        </tr>
+    </table>
+</div>
+
+<script>
+    fillBoardWithDataAndGetInfo();
+</script>
+</body>
+</html>
