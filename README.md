@@ -61,7 +61,7 @@ B) Special Rules:
 # UML Overall
 Flow for the user (sequence diagram): 
 
-![Sequence](https://i.ibb.co/1sx4HGK/Sequence.png)
+![Sequence](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/usecases.png)
 
 Use cases:
 
