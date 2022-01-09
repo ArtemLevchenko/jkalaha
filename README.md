@@ -34,6 +34,7 @@ Setup db:
 
 Run with maven:
 
+    mvn test
     mvn spring-boot:run
 
 # Users
