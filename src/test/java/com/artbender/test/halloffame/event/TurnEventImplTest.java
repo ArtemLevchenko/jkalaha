@@ -1,4 +1,4 @@
-package com.artbender.test.event;
+package com.artbender.test.halloffame.event;
 
 import com.artbender.core.constants.GameConstants;
 import com.artbender.core.model.Board;

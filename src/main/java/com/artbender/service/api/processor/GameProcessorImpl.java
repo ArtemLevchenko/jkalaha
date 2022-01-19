@@ -1,4 +1,4 @@
-package com.artbender.service.processor;
+package com.artbender.service.api.processor;
 
 import com.artbender.core.constants.GameConstants;
 import com.artbender.core.dto.CustomGameRequest;
