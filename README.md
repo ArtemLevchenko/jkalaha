@@ -61,37 +61,37 @@ B) Special Rules:
 # UML Overall
 Flow for the user (sequence diagram): 
 
-![Sequence](https://i.ibb.co/1sx4HGK/Sequence.png)
+![Sequence](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/Sequence.png)
 
 Use cases:
 
-![Use Cases](https://i.ibb.co/FJ7cdWm/usecases.png)
+![Use Cases](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/usecases.png)
 
 # Game
 ### Gameplay:
 For the test you can use apache-tomcat-9.0.56. Deploy your changes to apache-tomcat-9.0.56\webapps.
 Then start your server:
 
-![Start Tomcat Server](https://i.ibb.co/PWRQnVk/1.png)
+![Start Tomcat Server](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/1.png)
 
 ### Location
 
     localhost:8080
 
 #### Default Login Form in the first browser. brandoN (North) Player:
-![Default Login Form Brandon](https://i.ibb.co/fSVvz9g/brando-NLog.png)
+![Default Login Form Brandon](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/brandoNLog.png)
 #### Default Login Form in the second browser. marcoS (South) Player:
-![Default Login Form South](https://i.ibb.co/DMDFSsw/marco-SLog.png)
+![Default Login Form South](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/marcoSLog.png)
 #### Start page before click [Start Game]:
-![Start Game](https://i.ibb.co/H2ZfCBX/Game-Start.png)
+![Start Game](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/GameStart.png)
 #### Start Game is here:
-![Gameplay1](https://i.ibb.co/1QY0Lty/Click-To-Start.png)
+![Gameplay1](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/ClickToStart.png)
 #### marcoS turn:
-![MarcoS Turn](https://i.ibb.co/svKzNrF/marco-STurn.png)
+![MarcoS Turn](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/marcoSTurn.png)
 #### brandoN turn:
-![BrandoN Turn](https://i.ibb.co/LdXzH49/Brando-NTurn.png)
+![BrandoN Turn](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/BrandoNTurn.png)
 #### Get All Results from Database:
-![BrandoN Turn](https://i.ibb.co/7C42bLY/Show-Result.png)
+![BrandoN Turn](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/ShowResult.png)
 
 # Potential improvements
 
