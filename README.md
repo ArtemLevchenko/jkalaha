@@ -61,37 +61,37 @@ B) Special Rules:
 # UML Overall
 Flow for the user (sequence diagram): 
 
-![Sequence](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/Sequence.png)
+![Sequence](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/Sequence.png)
 
 Use cases:
 
-![Use Cases](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/usecases.png)
+![Use Cases](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/usecases.png)
 
 # Game
 ### Gameplay:
 For the test you can use apache-tomcat-9.0.56. Deploy your changes to apache-tomcat-9.0.56\webapps.
 Then start your server:
 
-![Start Tomcat Server](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/1.png)
+![Start Tomcat Server](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/1.png)
 
 ### Location
 
     localhost:8080
 
 #### Default Login Form in the first browser. brandoN (North) Player:
-![Default Login Form Brandon](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/brandoNLog.png)
+![Default Login Form Brandon](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/brandoNLog.png)
 #### Default Login Form in the second browser. marcoS (South) Player:
-![Default Login Form South](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/marcoSLog.png)
+![Default Login Form South](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/marcoSLog.png)
 #### Start page before click [Start Game]:
-![Start Game](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/GameStart.png)
+![Start Game](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/GameStart.png)
 #### Start Game is here:
-![Gameplay1](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/ClickToStart.png)
+![Gameplay1](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/ClickToStart.png)
 #### marcoS turn:
-![MarcoS Turn](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/marcoSTurn.png)
+![MarcoS Turn](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/marcoSTurn.png)
 #### brandoN turn:
-![BrandoN Turn](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/BrandoNTurn.png)
+![BrandoN Turn](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/BrandoNTurn.png)
 #### Get All Results from Database:
-![BrandoN Turn](https://gitlab.com/bolcom/artsiom-leuchanka/-/raw/jKalahaRelease/demoScreens/ShowResult.png)
+![BrandoN Turn](https://github.com/ArtemLevchenko/jkalaha/blob/master/demoScreens/ShowResult.png)
 
 # Potential improvements
 
